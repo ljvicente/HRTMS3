@@ -1,0 +1,29 @@
+/*
+ * Client Theme - Yellow
+ */
+
+ .navbar .navbar-inner {
+    background: #B99C50; /*#438eb9;*/
+}
+
+.nav-list>li.active>a, .nav-list>li.active>a:hover, .nav-list>li.active>a:focus, .nav-list>li.active>a:active {
+
+	color: #616060;
+}
+
+.nav-list>li.active>a:after {
+
+	border-right-color: #AA780F;
+}
+
+.nav-list>li.active:after {
+	border-right: 2px solid #AA780F;
+}
+
+.ace-nav>li.green {
+background:#A78337;
+}
+
+.ace-nav>li.light-blue {
+background: #A78337;
+}

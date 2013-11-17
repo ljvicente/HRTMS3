@@ -1,0 +1,31 @@
+var getObjectSize = function(obj) {
+   		var len = 0, key;
+	    for (key in obj) {
+	        if (obj.hasOwnProperty(key)) len++;
+	    }
+	    return len;
+	};
+
+/* Load notification */
+	var notify = function() {
+
+		var form_data = {
+        	ajax: '1'
+        };
+
+        var request = $.ajax({
+        	url: "<?php echo base_url();?>messenger/notify",
+        	type: 'POST',
+        	data: form_data
+        });
+
+        request.done(function (response, textStatus, jqXHR) {
+
+			var obj = jQuery.parseJSON(response);
+
+			console.log(obj.unread);
+			
+			$(".unread").text(obj.unread);
+			
+	    });
+	};

@@ -1,0 +1,82 @@
+@charset "utf-8";
+ @media (max-width: 767px) {
+ .corporate .span4 + .span4 {
+ margin-top: 40px;
+}
+ .sub-section-heading {
+ font-size: 30px;
+}
+ .sub-section .lead {
+ font-size: 18px;
+ line-height: 1.5;
+}
+.testimonials{
+	background-size:100%;
+	background-image:none;
+	background-color:#ccdbb3;
+}
+}
+@media (max-width: 979px) {
+.nav-collapse .nav > li > a {
+ color: #FFF;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+}
+.navbar-inverse .btn-navbar:hover, .navbar-inverse .btn-navbar:active, .navbar-inverse .btn-navbar.active, .navbar-inverse .btn-navbar.disabled, .navbar-inverse .btn-navbar[disabled] {
+ color:#94BA65;
+}
+.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
+ color: white;
+ background-color: #FFF;
+ border-bottom-style:solid;
+ border-bottom-width:2px;
+ color:#94BA65;
+}
+.navbar-inverse .nav li > a:hover {
+ border-bottom-style:solid;
+ border-bottom-width:2px;
+ border-bottom-color:#94BA65;
+ color:#FFF;
+}
+.navbar-inverse .navbar-inner {
+ border:none;
+ color:#FFF;
+ filter:none;
+}
+.navbar-inverse .btn-navbar {
+ border-radius:0px;
+ float:none;
+}
+.btn {
+ text-align:left;
+}
+/* === Page about us === */
+	.information .lead{
+		display:block;
+		font-size:18px;
+	}
+	/* === End Page about us === */
+	
+	/* === Page Contact us=== */
+		.input-xlarge{
+		width:220px;
+	}
+
+	/* === End Page Contact us=== */
+		.carousel-caption{
+		height:120px;
+		opacity:0.5;
+	}
+}
+@media (min-width:980px)and (max-width: 1200px) {
+	/* === Page about us === */
+	.information .lead{
+		display:none;
+	}
+	#slogan{
+		display:none;
+	}
+
+	/* === End Page about us === */
+}
